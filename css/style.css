@@ -96,4 +96,9 @@
 .copyright_container {
     height: 100px;
     background-color: hsl(210deg 29% 24%);
+    color: white;
+}
+
+.fot-altezza {
+    height: 100%;
 }
