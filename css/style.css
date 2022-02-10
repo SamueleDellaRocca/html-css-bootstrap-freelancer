@@ -1,15 +1,13 @@
-* {
-    color: white;
-}
-
 /* NAVBAR  */
 .navbar_container {
     height: 80px;
     background-color: hsl(210deg 29% 24%);
+    color: white;
 }
 
-.icona-hamburger {
-    background-color: white;
+
+.altezza {
+    height: 100%;
 }
 
 
@@ -17,20 +15,32 @@
 
 /* SECTION NUMERO 1 */
 .section1_container {
-    height: 300px;
     background-color: hsl(168deg 76% 42%);
 }
 
+.testo-centrato {
+    text-align: center;
+}
+
+.immagine {
+    width: 100%;
+}
+
+.titolini {
+    text-transform: uppercase;
+}
 
 
 
 
 /* SECTION NUMERO 2  */
 .section2_container {
-    height: 600px;
     background-color: white;
 }
 
+.color_black {
+    color: black;
+}
 
 
 
