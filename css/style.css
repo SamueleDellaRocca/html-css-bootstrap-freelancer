@@ -1,7 +1,15 @@
+* {
+    color: white;
+}
+
 /* NAVBAR  */
 .navbar_container {
     height: 80px;
     background-color: hsl(210deg 29% 24%);
+}
+
+.icona-hamburger {
+    background-color: white;
 }
 
 
