@@ -82,8 +82,12 @@
 
 /* CREDITS FOOTER  */
 .credits_container {
-    height: 200px;
     background-color: hsl(209deg 31% 33%);
+    color: white;
+}
+
+.verde {
+    color: green;
 }
 
 
