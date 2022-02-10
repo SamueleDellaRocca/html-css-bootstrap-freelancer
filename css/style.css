@@ -16,6 +16,7 @@
 /* SECTION NUMERO 1 */
 .section1_container {
     background-color: hsl(168deg 76% 42%);
+    color: white;
 }
 
 .testo-centrato {
@@ -62,8 +63,15 @@
 
 /* SECTION NUMERO 4 */
 .section4_container {
-    height: 400px;
     background-color: white;
+    color: black;
+}
+
+
+.span {
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
 }
 
 
