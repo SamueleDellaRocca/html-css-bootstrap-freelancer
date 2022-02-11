@@ -140,6 +140,14 @@ li a:hover {
 }
 
 
+
+
+
+
+
+
+
+
 /* SECTION NUMERO 3 */
 .section3_container {
     background-color: hsl(168deg 76% 42%);
@@ -163,6 +171,13 @@ li a:hover {
     background-color: white;
     color: black;
 }
+
+
+
+
+
+
+
 
 
 
@@ -205,6 +220,8 @@ textarea::placeholder {
 
 
 
+
+
 /* CREDITS FOOTER  */
 .credits_container {
     background-color: hsl(209deg 31% 33%);
@@ -222,6 +239,16 @@ textarea::placeholder {
 .fa-brands {
     font-size: 2rem;
 }
+
+
+.fa-brands:hover {
+    color: green;
+}
+
+
+
+
+
 
 
 
