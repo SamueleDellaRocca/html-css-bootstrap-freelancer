@@ -11,6 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- link fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <!-- link css  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,16 +23,26 @@
     <header>
         <!-- navbar  -->
         <div class="container-fluid navbar_container align-items-center">
+            <div class="container altezza">
+                <div class="row  align-items-center altezza">
+                    <div class="col">START BOOTSTRAP</div>
 
-            <div
-                class="row justify-content-between justify-content-md-evenly justify-content-lg-evenly align-items-center altezza">
-                <div class="col-5">START BOOTSTRAP</div>
-                <div class="col-3">
-                    hamburger
+                    <div class="col text-end">
+                        <div class="hamburger d-md-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+
+                        <nav class="d-none d-md-block">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">PORTFOLIO</li>
+                                <li class="list-inline-item">ABOUT</li>
+                                <li class="list-inline-item">CONTACT</li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-
             </div>
-
         </div>
         <!-- chiusura navbar  -->
     </header>
@@ -43,15 +56,19 @@
             <div class="row pt-4 pb-4 justify-content-center">
 
                 <div class="col-6 testo-centrato">
-                    <img class="immagine" src="img/avatar.svg" alt="">
+                    <img class="immagine mb-4" src="img/avatar.svg" alt="">
                 </div>
 
                 <div class="col-12 testo-centrato">
-                    <h1>START BOOTSTRAP</h1>
-
-                    <div>----------- stella ---------</div>
-
+                    <h1 class="fs">START BOOTSTRAP</h1>
                 </div>
+
+                <div class="col-12 testo-centrato dis-flex align-items-center">
+                    <div class="barra_bianca"></div>
+                    <div class="stellina mx-1 mx-md-3 "><i class="fa-solid fa-star"></i></div>
+                    <div class="barra_bianca"></div>
+                </div>
+
                 <div class="col-12 testo-centrato">
                     <div class="titolini">graphic artist - web designer - illustrator</div>
                 </div>
@@ -67,16 +84,18 @@
         <!-- section numero 2 portfolio  -->
         <div class="container-fluid section2_container color_black">
 
-            <div class="row pt-4 pb-4 justify-content-center">
+            <div class="row pt-4 pb-4 justify-content-center mt-3">
 
                 <div class="row justify-content-center">
-                    <div class="col-12 testo-centrato">
+                    <div class="col-12 testo-centrato mb-3">
                         <h1>PORTFOLIO</h1>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="col-12 testo-centrato">---- stella -----</div>
+                <div class="col-12 testo-centrato dis-flex align-items-center mb-4">
+                    <div class="barra_bianca nera"></div>
+                    <div class="stellina mx-1 mx-md-3 "><i class="fa-solid fa-star"></i></div>
+                    <div class="barra_bianca nera"></div>
                 </div>
 
                 <div class="col-11 col-md-5 col-lg-4 pb-2">

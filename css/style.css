@@ -5,6 +5,10 @@
     color: white;
 }
 
+.fa-bars {
+    font-size: 2rem;
+}
+
 
 .altezza {
     height: 100%;
@@ -27,8 +31,33 @@
     width: 210px;
 }
 
+.fs {
+    font-size: 2.5rem;
+}
+
 .titolini {
     text-transform: uppercase;
+}
+
+.stellina {
+    display: inline-block;
+}
+
+.dis-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.barra_bianca {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+}
+
+.fa-star {
+    font-size: 2rem;
 }
 
 
@@ -49,6 +78,9 @@
     border-radius: 10px;
 }
 
+.nera {
+    background-color: black;
+}
 
 
 
