@@ -121,6 +121,26 @@
     padding: 5px 5px;
 }
 
+.nera2 {
+    width: 60px;
+    background-color: black;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 1.5rem;
+}
+
+textarea.form-control {
+    min-height: 200px;
+}
+
+textarea::placeholder {
+    color: black;
+    font-size: 1.5rem;
+}
+
+
 
 
 
